@@ -23,6 +23,7 @@ vim.o.spell = true
 vim.o.swapfile = false
 vim.o.tabstop = 2
 vim.o.wrap = false
+vim.o.relativenumber = true
 if vim.fn.has('termguicolors') == 1 then vim.o.termguicolors = true end
 vim.opt.colorcolumn = '80'
 vim.g.netrw_keepdir = 0
